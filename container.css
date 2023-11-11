@@ -3,7 +3,7 @@
      padding-right: 5%;
     }
     
-    @media (min-width: 1066px) {
+    @media (min-width: 500px) {
      .container {
      padding-left: calc((100% - 960px) / 2);
      padding-right: calc((100% - 960px) / 2);
