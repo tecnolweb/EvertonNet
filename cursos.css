@@ -153,7 +153,7 @@
      margin-bottom: 5px;
      }
     
-     @media(min-width:768px) {
+     @media(min-width:500px) {
      .cursos {
      padding: 6rem 5% 0;
      background-image: url();

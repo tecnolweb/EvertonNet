@@ -30,7 +30,7 @@ display: inline-block;
 display: inline-block;
 padding: 1.86em 1.42em;
 }
-@media (min-width: 640px) {
+@media (min-width: 400px) {
 .cabecalho {
 padding-top: 0;
 padding-bottom: 0;
@@ -45,7 +45,7 @@ padding: 2.5em 0;
 background-color: transparent;
 }
 }
-@media (min-width: 770px) {
+@media (min-width: 900px) {
 .cabecalho__item-menu--matricular {
 margin-left: 1.42em;
 border-radius: 6px;
