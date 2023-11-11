@@ -1,0 +1,134 @@
+.cabecalho {
+     position: absolute;
+ top: 0;
+ width: 100%;
+ box-sizing: border-box;
+
+text-align: center;
+font-size: 0.6rem;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 0.23em;
+color: #fff;
+
+}
+.cabecalho__logo {
+padding: 1.5em 0;
+width: 14.5em;
+}
+
+.cabecalho__menu {
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+background-color: #5485f787;
+}
+.cabecalho__item-menu {
+display: inline-block;
+}
+.cabecalho__item-menu a {
+display: inline-block;
+padding: 1.86em 1.42em;
+}
+@media (min-width: 640px) {
+.cabecalho {
+padding-top: 0;
+padding-bottom: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.cabecalho__logo {
+padding: 2.5em 0;
+}
+.cabecalho__menu {
+background-color: transparent;
+}
+}
+@media (min-width: 770px) {
+.cabecalho__item-menu--matricular {
+margin-left: 1.42em;
+border-radius: 6px;
+background-color: #e93d50;
+}
+.cabecalho__item-menu--matricular a {
+padding: 1.8em 3.5em;
+}
+}
+
+    
+        
+
+       
+       
+        
+    html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+body {
+ font-family: 'Montserrat', sans-serif;
+ color: #2e4255;
+}
+
+a {
+ color: inherit;
+ text-decoration: inherit;
+}
+H1{
+    font-size: 50PX;
+    padding: 25PX;
+}
+H2{
+    font-size: 25PX;
+    padding: 15PX;
+}
+.linq{
+    margin-top: 50%;
+    font-size: 15px;
+    border: #e93d50 solid 1px;
+    background-color: #ce0a21;
+    border-radius: 3px;
+    font-family: serif;
+}
